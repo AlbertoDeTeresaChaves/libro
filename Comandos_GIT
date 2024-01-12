@@ -1,0 +1,29 @@
+Ejercicio 1:
+    git config --global user.name "alberto"
+    git config --global user.email "alberto.trabajo.es@gmail.com"
+    git config --global color.ui auto
+
+Ejercicio 2:
+    mkdir "libro"  
+    git init
+    git commit -m "Creacion del repositorio"
+
+Ejercicio 3:
+    git status
+    echo indice.txt
+    git status    
+    git add indice.txt
+    git status
+
+Ejercicio 4:
+    git commit -m "Añadido indice del libro"
+    git status
+
+Ejercicio 5:
+    git diff indice.txt
+    git commit -m "Añadido capitulo 3 sobre gestion de ramas al indice"
+
+Ejercicio 6:
+    git diff HEAD HEAD~1
+    git commit --amend -m "Añadido capitulo 3 sobre gestio de ramas al indice"
+    git log
