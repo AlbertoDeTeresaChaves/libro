@@ -1,0 +1,39 @@
+Ejercicio 1:
+  - git branch bibliografia
+  - git branch
+Ejercicio 2:
+  - type nul > capitulo4.txt
+  - git add capitulo4.txt
+  - git commit -m "Añadido capitulo 4."
+  - git log
+
+Ejercicio 3:
+  - git checkout bibliografia
+  - echo "Chacon, S. and Straub, B. Pro Git. Apress." > bibliografia.txt
+  - git add bibliografia.txt
+  - git commit -m "Añadida primera referencia bibliografica"
+  - git log
+
+Ejercicio 4:
+  - git merge master
+  - git checkout master / git branch -D bibliografia
+  - git log
+
+Ejercicio 5:
+  - git branch bibliografia
+  - git checkout bibliografia
+  - echo "Scott Chacon and Ben Straub. Pro Git. Apress." > bibliografia.txt
+  - echo "Ryan Hodson Ry's Git Tutorial Smashwords (2014)" >> bibliografia.txt
+  - git add bibliografia.txt / git commit -m "Añadida nueva referencia bibliografica"
+  - git checkout master
+  - echo "Chacon, S. and Straub, B. Pro Git. Apress." > bibliografia.txt
+  - echo "Loeliger, J. and McCullough, M. Version control with Git O'Reilly." >> bibliografia.txt
+  - git add bibliografia.txt
+  - git commit -m "Añadida nueva referencia bibliografica"
+  - git merge biblioteca
+  - echo "Chacon, S. and Straub, B. Pro Git. Apress." > bibliografia.txt
+  - echo "Loeliger, J. and McCullough, M. Version control with Git. O’Reilly." >> bibliografia.txt
+  - echo "Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)" >> bibliografia.txt
+  - git add biblioteca.txt
+  - git commit -m "Resuelto conflicto de bibliografía"
+  - git log
