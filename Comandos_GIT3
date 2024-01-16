@@ -15,8 +15,9 @@ Ejercicio 3:
   - git log
 
 Ejercicio 4:
-  - git merge master
-  - git checkout master / git branch -D bibliografia
+  - git checkout master
+  - git merge bibliografia  
+  - git branch -D bibliografia
   - git log
 
 Ejercicio 5:
