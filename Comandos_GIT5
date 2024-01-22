@@ -1,0 +1,24 @@
+Ejercicio 1:
+  - git status
+  - git checkout -- indice.txt
+  - git status
+
+Ejercicio 2:
+  - git add indice.txt
+  - git status
+  - git reset indice.txt
+  - git status
+  - git checkout -- indice.txt
+  - git status
+
+Ejercicio 3:
+  - cd capitulos
+  - echo > capitulo4.txt
+  - git add capitulo4.txt
+  - git reset capitulo4.txt
+  - git status
+  - git reset --hard HEAD~1
+  - git status
+
+Ejercicio 4:
+  - 
